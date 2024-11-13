@@ -1,0 +1,121 @@
+/* Global styling for body and html elements */
+body,
+html {
+    /* Remove default margins and padding, set font */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    /* Background color and center-align content */
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Centered container styling */
+.content {
+    margin: 0 auto;
+    width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    /* Rounded corners */
+}
+
+/* Table styling */
+table {
+    /* Make table full-width and remove spaces between borders */
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Table border and alignment */
+table,
+th,
+td {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+/* Padding for table cells */
+th,
+td {
+    padding: 12px;
+}
+
+/* Header row styling */
+th {
+    background-color: #f7fafc;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Alternate row coloring */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Row hover effect for interactivity */
+tr:hover {
+    background-color: #e0f7fa;
+}
+
+/* Heading styling for h1 */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* Space between input and button */
+    margin-top: 20px;
+}
+
+/* Text input field styling */
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    /* Ensures padding is included in width */
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Styling for action links (Delete, Update) */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+/* Underline links on hover for accessibility */
+a:hover {
+    text-decoration: underline;
+}
